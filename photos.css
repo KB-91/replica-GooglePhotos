@@ -1,0 +1,60 @@
+.container {
+    width: 100%;
+    height: 100%; 
+    margin-top: 20px;
+}
+
+.row > .item {
+    float: left;
+    padding: 20px;
+}
+
+.row {
+    position: relative;
+    width: auto;
+}
+
+.example-image-link{
+    position: relative;
+}
+
+.item, .example-image{
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    margin: 0.5%;
+    position: relative;
+}
+
+.number {
+    color: grey;
+}
+
+.container, .row:after {
+    clear: both;
+    content: " ";
+    display: table;
+}
+
+.see-all {
+    float: right;
+    margin-top: 45px;
+    margin-right: 3px;
+    color: rgb(0, 166, 255);
+    text-decoration: none;
+}
+
+h1 {
+    display: inline-block;
+}
+
+body {
+    margin: 2%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+.plus a {
+    font-size: 30px;
+    color: rgb(0, 166, 255);
+    text-decoration: none;
+}
